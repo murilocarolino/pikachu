@@ -10,11 +10,20 @@ body{
     grid-template-rows: 100px 1fr 50px;
     padding: 70px 70px 24px 70px;
     background-color: #F5CF06;
+    font-family: 'Righteous', cursive;
 }
 
-header{
-    background-color: rgb(217, 255, 0);
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
+
+.logo__text{
+    font-size: 32px;
+    font-weight: 100;
+}
+
 main{
     background-color: rgb(54, 212, 22);
 }
